@@ -103,7 +103,7 @@ export default function EditServerModal() {
                       <FormItem>
                         <FormControl>
                           <FileUpload
-                            endPoint="serverImage"
+                            endpoint="serverImage"
                             value={field.value}
                             onChange={field.onChange}
                           />
